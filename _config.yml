@@ -1,7 +1,10 @@
-collections:
-  authors:
+collections: 
+  authors: 
 
-theme: jekyll-theme-primer
+title: [Physics notes]
+
+
+theme: jekyll-theme-dinky
 
 plugins:
   - jekyll-feed
