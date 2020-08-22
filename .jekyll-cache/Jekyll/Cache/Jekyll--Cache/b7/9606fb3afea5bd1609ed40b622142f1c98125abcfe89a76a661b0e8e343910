@@ -1,8 +1,8 @@
-I"Ï1{"source"=>"/home/yajur/website/creatorac.github.io", "destination"=>"/home/yajur/website/creatorac.github.io/_site", "collections_dir"=>"", "cache_dir"=>".jekyll-cache", "plugins_dir"=>"_plugins", "layouts_dir"=>"_layouts", "data_dir"=>"_data", "includes_dir"=>"_includes", "collections"=>{"posts"=>{"output"=>true, "permalink"=>"/:categories/:year/:month/:day/:title:output_ext"}, "authors"=>nil}, "safe"=>false, "include"=>[".htaccess"], "exclude"=>[".sass-cache", ".jekyll-cache", "gemfiles", "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"], "keep_files"=>[".git", ".svn"], "encoding"=>"utf-8", "markdown_ext"=>"markdown,mkdown,mkdn,mkd,md", "strict_front_matter"=>false, "show_drafts"=>nil, "limit_posts"=>0, "future"=>false, "unpublished"=>false, "whitelist"=>[], "plugins"=>["jekyll-feed", "jekyll-sitemap", "jekyll-seo-tag"], "markdown"=>"kramdown", "highlighter"=>"rouge", "lsi"=>false, "excerpt_separator"=>"\n\n", "incremental"=>false, "detach"=>false, "port"=>"4000", "host"=>"127.0.0.1", "baseurl"=>nil, "show_dir_listing"=>false, "permalink"=>"date", "paginate_path"=>"/page:num", "timezone"=>nil, "quiet"=>false, "verbose"=>false, "defaults"=>[], "liquid"=>{"error_mode"=>"warn", "strict_filters"=>false, "strict_variables"=>false}, "kramdown"=>{"auto_ids"=>true, "toc_levels"=>[1, 2, 3, 4, 5, 6], "entity_output"=>"as_char", "smart_quotes"=>"lsquo,rsquo,ldquo,rdquo", "input"=>"GFM", "hard_wrap"=>false, "guess_lang"=>true, "footnote_nr"=>1, "show_warnings"=>false}, "theme"=>"jekyll-theme-primer", "livereload_port"=>35729, "serving"=>true, "watch"=>true, "url"=>"http://localhost:4000", "github"=>{
+I"Í1{"source"=>"/home/yajur/website/creatorac.github.io", "destination"=>"/home/yajur/website/creatorac.github.io/_site", "collections_dir"=>"", "cache_dir"=>".jekyll-cache", "plugins_dir"=>"_plugins", "layouts_dir"=>"_layouts", "data_dir"=>"_data", "includes_dir"=>"_includes", "collections"=>{"posts"=>{"output"=>true, "permalink"=>"/:categories/:year/:month/:day/:title:output_ext"}, "authors"=>nil}, "safe"=>false, "include"=>[".htaccess"], "exclude"=>[".sass-cache", ".jekyll-cache", "gemfiles", "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"], "keep_files"=>[".git", ".svn"], "encoding"=>"utf-8", "markdown_ext"=>"markdown,mkdown,mkdn,mkd,md", "strict_front_matter"=>false, "show_drafts"=>nil, "limit_posts"=>0, "future"=>false, "unpublished"=>false, "whitelist"=>[], "plugins"=>["jekyll-feed", "jekyll-sitemap", "jekyll-seo-tag"], "markdown"=>"kramdown", "highlighter"=>"rouge", "lsi"=>false, "excerpt_separator"=>"\n\n", "incremental"=>false, "detach"=>false, "port"=>"4000", "host"=>"127.0.0.1", "baseurl"=>nil, "show_dir_listing"=>false, "permalink"=>"date", "paginate_path"=>"/page:num", "timezone"=>nil, "quiet"=>false, "verbose"=>false, "defaults"=>[], "liquid"=>{"error_mode"=>"warn", "strict_filters"=>false, "strict_variables"=>false}, "kramdown"=>{"auto_ids"=>true, "toc_levels"=>[1, 2, 3, 4, 5, 6], "entity_output"=>"as_char", "smart_quotes"=>"lsquo,rsquo,ldquo,rdquo", "input"=>"GFM", "hard_wrap"=>false, "guess_lang"=>true, "footnote_nr"=>1, "show_warnings"=>false}, "theme"=>"jekyll-theme-primer", "livereload_port"=>35729, "serving"=>true, "watch"=>true, "url"=>"http://localhost:4000", "github"=>{
   "api_url": "https://api.github.com",
   "archived": false,
   "baseurl": "/pages/creatorac/creatorac.github.io",
-  "build_revision": "ab5d716891f962fc5b78124db86681079c91f684",
+  "build_revision": "8d36040ac9b08d3f3b5faa52ce50d1632c142c2f",
   "clone_url": "https://github.com/creatorac/creatorac.github.io.git",
   "contributors": [
     {
@@ -55,7 +55,7 @@
   "is_project_page": true,
   "is_user_page": false,
   "issues_url": "https://github.com/creatorac/creatorac.github.io/issues",
-  "language": "HTML",
+  "language": "CSS",
   "latest_release": false,
   "license": null,
   "organization_members": null,
@@ -83,7 +83,7 @@
     "public_gists": 0,
     "public_repos": 1,
     "type": "User",
-    "updated_at": "2020-08-21 11:27:51 UTC"
+    "updated_at": "2020-08-22 11:49:55 UTC"
   },
   "owner_gravatar_url": "https://github.com/creatorac.png",
   "owner_name": "creatorac",
@@ -161,8 +161,8 @@
       "releases_url": "https://api.github.com/repos/creatorac/creatorac.github.io/releases{/id}",
       "deployments_url": "https://api.github.com/repos/creatorac/creatorac.github.io/deployments",
       "created_at": "2020-08-21 11:26:07 UTC",
-      "updated_at": "2020-08-22 08:08:23 UTC",
-      "pushed_at": "2020-08-22 08:08:20 UTC",
+      "updated_at": "2020-08-22 11:50:34 UTC",
+      "pushed_at": "2020-08-22 11:50:31 UTC",
       "git_url": "git://github.com/creatorac/creatorac.github.io.git",
       "ssh_url": "git@github.com:creatorac/creatorac.github.io.git",
       "clone_url": "https://github.com/creatorac/creatorac.github.io.git",
@@ -171,7 +171,7 @@
       "size": 7,
       "stargazers_count": 0,
       "watchers_count": 0,
-      "language": "HTML",
+      "language": "CSS",
       "has_issues": true,
       "has_projects": true,
       "has_downloads": true,
@@ -210,4 +210,4 @@
   },
   "wiki_url": "https://github.com/creatorac/creatorac.github.io/wiki",
   "zip_url": "https://github.com/creatorac/creatorac.github.io/zipball/gh-pages"
-}, "title"=>#<Jekyll::GitHubMetadata::Value:0x000055ac408f3cb0 @key="title", @value=#<Proc:0x000055ac408f3cd8 /home/yajur/gems/gems/jekyll-github-metadata-2.13.0/lib/jekyll-github-metadata/site_github_munger.rb:58>>, "description"=>#<Jekyll::GitHubMetadata::Value:0x000055ac408f3bc0 @key="description", @value=#<Proc:0x000055ac408f3be8 /home/yajur/gems/gems/jekyll-github-metadata-2.13.0/lib/jekyll-github-metadata/site_github_munger.rb:60>>}:ET
+}, "title"=>#<Jekyll::GitHubMetadata::Value:0x0000562260937d98 @key="title", @value=#<Proc:0x0000562260937dc0 /home/yajur/gems/gems/jekyll-github-metadata-2.13.0/lib/jekyll-github-metadata/site_github_munger.rb:58>>, "description"=>#<Jekyll::GitHubMetadata::Value:0x0000562260937ca8 @key="description", @value=#<Proc:0x0000562260937cd0 /home/yajur/gems/gems/jekyll-github-metadata-2.13.0/lib/jekyll-github-metadata/site_github_munger.rb:60>>}:ET
