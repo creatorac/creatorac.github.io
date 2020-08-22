@@ -49,7 +49,7 @@ $$ x_{new} = X = x+dx , p_{new} = P = p $$
 
 The generating function for this will be:
 
-$$ F{x,P) = x\cdot P + p\cdot dx $$
+$$ F(x,P) = x\cdot P + p\cdot dx $$
 
 
 
