@@ -39,7 +39,53 @@ MathJax.Hub.Config({
 
 <p>First thing: About the Schrodinger equation– How does one arrive at this equation and what is its significance?</p>
 
-<p>Following J.J. Sakurai’s Modern Quantum mechanics book:</p>
+<p>Notes following J.J. Sakurai’s Modern Quantum mechanics book.</p>
+
+<p><strong>Position</strong> : Position is defined as the collection of points in 3D space where the particle is supposed to be.</p>
+
+<p><strong>Time</strong> : Forward going - clock counting - t.</p>
+
+<p>Given these two quantities. I will define a continuous vector space for position given by:</p>
+
+\[x|x'\rangle = x' |x'\rangle\]
+
+<p>Here x is the position operator, which when acted upon its eigen vector provides the eigen value $x’$.
+A simultaneous <em>eigen-ket</em> in 3D space is given by:</p>
+
+\[|\mathbf{x}'\rangle = |x',y',z'\rangle\]
+
+<p><em>Implicit assumption</em> - that the three components of the position vector can be measured simultaneously(?)</p>
+
+<p><strong>Spatial Translation</strong></p>
+
+\[\mathcal{J}(d\mathbf{x}')|\mathbf{x}'\rangle = |\mathbf{x}' + d\mathbf{x}'\rangle\]
+
+<p>Properties of the translation operator:</p>
+
+<p>\(\mathcal{J}^{\dagger}(dx')\mathcal{J}(dx') = 1\)
+\(\mathcal{J}(dx'')\mathcal{J}(dx') = \mathcal(J)(dx''+dx')\)
+\(\mathcal{J}(-dx') = \mathcal{J}^{-1}(dx')\)
+\(\lim_{dx' \to 0} \mathcal{J}(dx') = 1\)</p>
+
+<p>_Let $\mathcal{J}(dx’) = 1 - i\mathbf{K}\cdot dx’$, this satisfies all the above mentioned properties.</p>
+
+<p>\([\mathbf{x},\mathcal{J}(dx)] = dx'\)
+This gives us :
+\([x_i, K_j] = i\delta_{ij}\)</p>
+
+<p>_An infinetisimal translation can be regarded by:</p>
+
+\[x_{new} = X = x+dx , p_{new} = P = p\]
+
+<p>The generating function for this will be:</p>
+
+\[F{x,P) = x\cdot P + p\cdot dx\]
+
+<p><strong>Questions</strong></p>
+<ol>
+  <li>How does one normalize an infinite dimensional vector ?</li>
+  <li>Why are x,y,z position vectors independent ?</li>
+</ol>
 
 
 

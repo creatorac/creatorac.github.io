@@ -1,15 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-08-22T17:55:33+05:30</updated><id>/feed.xml</id><title type="html">[“Physics notes”]</title><entry><title type="html">Quantum_mechanics</title><link href="/2020/08/22/Quantum_Mechanics.html" rel="alternate" type="text/html" title="Quantum_mechanics" /><published>2020-08-22T00:00:00+05:30</published><updated>2020-08-22T00:00:00+05:30</updated><id>/2020/08/22/Quantum_Mechanics</id><content type="html" xml:base="/2020/08/22/Quantum_Mechanics.html">&lt;p&gt;The foundations of quantum mechanics shall be discussed in this post.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-22T19:57:23+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">[“Physics notes”]</title><entry><title type="html">Quantum_mechanics</title><link href="http://localhost:4000/2020/08/22/Quantum_Mechanics.html" rel="alternate" type="text/html" title="Quantum_mechanics" /><published>2020-08-22T00:00:00+05:30</published><updated>2020-08-22T00:00:00+05:30</updated><id>http://localhost:4000/2020/08/22/Quantum_Mechanics</id><content type="html" xml:base="http://localhost:4000/2020/08/22/Quantum_Mechanics.html">&lt;p&gt;The foundations of quantum mechanics shall be discussed in this post.&lt;/p&gt;
 
 &lt;p&gt;First thing: About the Schrodinger equation– How does one arrive at this equation and what is its significance?&lt;/p&gt;
 
-&lt;p&gt;Following J.J. Sakurai’s Modern Quantum mechanics book:&lt;/p&gt;</content><author><name>rac</name></author><summary type="html">The foundations of quantum mechanics shall be discussed in this post.</summary></entry><entry><title type="html">Kiwifruit</title><link href="/2018/08/22/kiwifruit.html" rel="alternate" type="text/html" title="Kiwifruit" /><published>2018-08-22T00:00:00+05:30</published><updated>2018-08-22T00:00:00+05:30</updated><id>/2018/08/22/kiwifruit</id><content type="html" xml:base="/2018/08/22/kiwifruit.html">&lt;p&gt;Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
+&lt;p&gt;Notes following J.J. Sakurai’s Modern Quantum mechanics book.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Position&lt;/strong&gt; : Position is defined as the collection of points in 3D space where the particle is supposed to be.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt; : Forward going - clock counting - t.&lt;/p&gt;
+
+&lt;p&gt;Given these two quantities. I will define a continuous vector space for position given by:&lt;/p&gt;
+
+\[x|x'\rangle = x' |x'\rangle\]
+
+&lt;p&gt;Here x is the position operator, which when acted upon its eigen vector provides the eigen value $x’$.
+A simultaneous &lt;em&gt;eigen-ket&lt;/em&gt; in 3D space is given by:&lt;/p&gt;
+
+\[|\mathbf{x}'\rangle = |x',y',z'\rangle\]
+
+&lt;p&gt;&lt;em&gt;Implicit assumption&lt;/em&gt; - that the three components of the position vector can be measured simultaneously(?)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Spatial Translation&lt;/strong&gt;&lt;/p&gt;
+
+\[\mathcal{J}(d\mathbf{x}')|\mathbf{x}'\rangle = |\mathbf{x}' + d\mathbf{x}'\rangle\]
+
+&lt;p&gt;Properties of the translation operator:&lt;/p&gt;
+
+&lt;p&gt;\(\mathcal{J}^{\dagger}(dx')\mathcal{J}(dx') = 1\)
+\(\mathcal{J}(dx'')\mathcal{J}(dx') = \mathcal(J)(dx''+dx')\)
+\(\mathcal{J}(-dx') = \mathcal{J}^{-1}(dx')\)
+\(\lim_{dx' \to 0} \mathcal{J}(dx') = 1\)&lt;/p&gt;
+
+&lt;p&gt;_Let $\mathcal{J}(dx’) = 1 - i\mathbf{K}\cdot dx’$, this satisfies all the above mentioned properties.&lt;/p&gt;
+
+&lt;p&gt;\([\mathbf{x},\mathcal{J}(dx)] = dx'\)
+This gives us :
+\([x_i, K_j] = i\delta_{ij}\)&lt;/p&gt;
+
+&lt;p&gt;_An infinetisimal translation can be regarded by:&lt;/p&gt;
+
+\[x_{new} = X = x+dx , p_{new} = P = p\]
+
+&lt;p&gt;The generating function for this will be:&lt;/p&gt;
+
+\[F{x,P) = x\cdot P + p\cdot dx\]
+
+&lt;p&gt;&lt;strong&gt;Questions&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;How does one normalize an infinite dimensional vector ?&lt;/li&gt;
+  &lt;li&gt;Why are x,y,z position vectors independent ?&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>rac</name></author><summary type="html">The foundations of quantum mechanics shall be discussed in this post.</summary></entry><entry><title type="html">Kiwifruit</title><link href="http://localhost:4000/2018/08/22/kiwifruit.html" rel="alternate" type="text/html" title="Kiwifruit" /><published>2018-08-22T00:00:00+05:30</published><updated>2018-08-22T00:00:00+05:30</updated><id>http://localhost:4000/2018/08/22/kiwifruit</id><content type="html" xml:base="http://localhost:4000/2018/08/22/kiwifruit.html">&lt;p&gt;Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
 berry of several species of woody vines in the genus Actinidia.&lt;/p&gt;
 
 &lt;p&gt;The most common cultivar group of kiwifruit is oval, about the size of a large
 hen’s egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in
 diameter). It has a fibrous, dull greenish-brown skin and bright green or
 golden flesh with rows of tiny, black, edible seeds. The fruit has a soft
-texture, with a sweet and unique flavor.&lt;/p&gt;</content><author><name>ted</name></author><summary type="html">Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.</summary></entry><entry><title type="html">Apples</title><link href="/2018/08/21/apples.html" rel="alternate" type="text/html" title="Apples" /><published>2018-08-21T00:00:00+05:30</published><updated>2018-08-21T00:00:00+05:30</updated><id>/2018/08/21/apples</id><content type="html" xml:base="/2018/08/21/apples.html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
+texture, with a sweet and unique flavor.&lt;/p&gt;</content><author><name>ted</name></author><summary type="html">Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.</summary></entry><entry><title type="html">Apples</title><link href="http://localhost:4000/2018/08/21/apples.html" rel="alternate" type="text/html" title="Apples" /><published>2018-08-21T00:00:00+05:30</published><updated>2018-08-21T00:00:00+05:30</updated><id>http://localhost:4000/2018/08/21/apples</id><content type="html" xml:base="http://localhost:4000/2018/08/21/apples.html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
 
 &lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
 the genus Malus. The tree originated in Central Asia, where its wild ancestor,
