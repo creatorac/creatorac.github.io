@@ -136,7 +136,33 @@ Where G is a Hermitian operator and $\lambda$ is real.
 
 $$a|\lambda\rangle = \lambda|\lambda\rangle$$
 
-Follows poissonian distribution. 
+$$|\lambda\rangle = \Sum_{n=0}^{|inf}f(n)|n\rangle
+
+$$ |f(n)|^2 $$
+follows Poissonian distribution. 
+In an SHO a gaussian state is a coherent state. It is also the minimum uncertainity state. 
+
+**The Classical Limit**: Evolution of the phase of the wave function follows the _Hamilton-Jacobi equation_.
+
+**Free particle in 3D**:
+
+$$\nabla^2 u_E(\mathbf{x})=-\frac{2mE}{\hbar^2}u_E(\mathbf{x})$$
+
+Define: 
+$$ \mathbf{k}^2 \equiv \frac{2mE}{\hbar^2} = \frac{\mathbf{p}^2}{\hbar^2}$$
+
+Using separation of variables, 
+$$u_E(x) = Ce^{ik\cdot x}.$$
+
+Confining the boundary conditions to a finite cubical box,
+$$ u_E(x)=\frac{1}{L^{3/2}}e^{ik\cdot x}$$
+
+the energy eigen values would be:
+$$E = \frac{p^2}{2m} = \frac{\hbar^2}{2m}(\frac{2\pi}{L})^2(n_x^2 + n_y^2 + n_z^2).$$
+
+**Theory of Angular momentum**
+
+
 
 
 

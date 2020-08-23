@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-23T17:05:37+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">[“Physics notes”]</title><entry><title type="html">Quantum_mechanics</title><link href="http://localhost:4000/2020/08/22/Quantum_Mechanics.html" rel="alternate" type="text/html" title="Quantum_mechanics" /><published>2020-08-22T00:00:00+05:30</published><updated>2020-08-22T00:00:00+05:30</updated><id>http://localhost:4000/2020/08/22/Quantum_Mechanics</id><content type="html" xml:base="http://localhost:4000/2020/08/22/Quantum_Mechanics.html">&lt;p&gt;The foundations of quantum mechanics shall be discussed in this post.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-23T18:24:48+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">creatorac.github.io</title><entry><title type="html">Quantum_mechanics</title><link href="http://localhost:4000/2020/08/22/Quantum_Mechanics.html" rel="alternate" type="text/html" title="Quantum_mechanics" /><published>2020-08-22T00:00:00+05:30</published><updated>2020-08-22T00:00:00+05:30</updated><id>http://localhost:4000/2020/08/22/Quantum_Mechanics</id><content type="html" xml:base="http://localhost:4000/2020/08/22/Quantum_Mechanics.html">&lt;p&gt;The foundations of quantum mechanics shall be discussed in this post.&lt;/p&gt;
 
 &lt;p&gt;First thing: About the Schrodinger equation– How does one arrive at this equation and what is its significance?&lt;/p&gt;
 
@@ -129,7 +129,40 @@ Where G is a Hermitian operator and $\lambda$ is real.&lt;/p&gt;
 
 \[a|\lambda\rangle = \lambda|\lambda\rangle\]
 
-&lt;p&gt;Follows poissonian distribution.&lt;/p&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$$&lt;/td&gt;
+      &lt;td&gt;\lambda\rangle = \Sum_{n=0}^{&lt;/td&gt;
+      &lt;td&gt;inf}f(n)&lt;/td&gt;
+      &lt;td&gt;n\rangle&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;\(|f(n)|^2\)
+follows Poissonian distribution. 
+In an SHO a gaussian state is a coherent state. It is also the minimum uncertainity state.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Classical Limit&lt;/strong&gt;: Evolution of the phase of the wave function follows the &lt;em&gt;Hamilton-Jacobi equation&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Free particle in 3D&lt;/strong&gt;:&lt;/p&gt;
+
+\[\nabla^2 u_E(\mathbf{x})=-\frac{2mE}{\hbar^2}u_E(\mathbf{x})\]
+
+&lt;p&gt;Define: 
+\(\mathbf{k}^2 \equiv \frac{2mE}{\hbar^2} = \frac{\mathbf{p}^2}{\hbar^2}\)&lt;/p&gt;
+
+&lt;p&gt;Using separation of variables, 
+\(u_E(x) = Ce^{ik\cdot x}.\)&lt;/p&gt;
+
+&lt;p&gt;Confining the boundary conditions to a finite cubical box,
+\(u_E(x)=\frac{1}{L^{3/2}}e^{ik\cdot x}\)&lt;/p&gt;
+
+&lt;p&gt;the energy eigen values would be:
+\(E = \frac{p^2}{2m} = \frac{\hbar^2}{2m}(\frac{2\pi}{L})^2(n_x^2 + n_y^2 + n_z^2).\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Theory of Angular momentum&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Questions&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
