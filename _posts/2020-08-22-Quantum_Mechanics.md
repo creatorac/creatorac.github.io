@@ -162,7 +162,9 @@ $$E = \frac{p^2}{2m} = \frac{\hbar^2}{2m}(\frac{2\pi}{L})^2(n_x^2 + n_y^2 + n_z^
 
 **Theory of Angular momentum**
 
+**Hydrogen Atom**
 
+**Identical Particles**
 
 
 
