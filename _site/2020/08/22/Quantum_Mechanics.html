@@ -64,7 +64,7 @@ A simultaneous <em>eigen-ket</em> in 3D space is given by:</p>
 
 \[\mathcal{J}^{\dagger}(dx')\mathcal{J}(dx') = 1\]
 
-\[\mathcal{J}(dx'')\mathcal{J}(dx') = \mathcal(J)(dx''+dx')\]
+\[\mathcal{J}(dx'')\mathcal{J}(dx') = \mathcal{J}(dx''+dx')\]
 
 \[\mathcal{J}(-dx') = \mathcal{J}^{-1}(dx')\]
 
@@ -83,6 +83,78 @@ This gives us :
 <p>The generating function for this will be:</p>
 
 \[F(x,P) = x\cdot P + p\cdot dx\]
+
+<p>The finite translation operator is given by:</p>
+
+<p>\begin{align}
+\mathcal{J}(\Delta x’ \mathbf{x})|x’\rangle &amp;= |x’ + \Delta x’ \mathbf{x}\rangle <br />
+&amp;= \exp(-\frac{ip_x \Delta x’}{\hbar})
+\end{align}</p>
+
+<p>(<strong>Note</strong>: Rotations about different axes do <em>not</em> commute)</p>
+
+<p><strong>Anbelian</strong> group : Whenever the generators of transformations commute.</p>
+
+<p>\(|p'\rangle\)
+is an eigen ket of 
+\(\mathcal{J}\)
+because 
+\([p,\mathcal{J}]= 0\) .</p>
+
+<p><strong>Dirac’s rule</strong> : Classical poisson bracket relationships turn into quantum commutator relationship with a scaling factor of $\hbar$.</p>
+
+<p><strong>Jacobi’s identity</strong>: [A,[B,C]] +[B,[C,A]]+[C,[A,B]] = 0</p>
+
+<p><strong>Wave function</strong>: 
+\(\psi_{\alpha}(x') = \langle x'|\alpha \rangle\)
+\(\langle \beta|\alpha\rangle = \int dx' \psi^*_{\beta}(x')\psi_{\alpha}(x')\)</p>
+
+\[\langle\beta|f(x)|\alpha\rangle = \int dx' \psi^*_{\beta}(x')f(x')\psi_{\alpha}(x')\]
+
+<p>Action of momentum operator:
+\(\langle\beta|p|\alpha\rangle = \int dx' \psi^*_{\beta}(x')(-i\hbar\frac{\partial}{\partial x'})\psi_{\alpha}(x')\)</p>
+
+<p>Now:</p>
+
+\[\langle x'|p|p'\rangle  = -i\hbar\frac{\partial}{\partial x'}\langle x'|p'\rangle = p' \langle x'|p'\rangle\]
+
+\[\langle x'|p'\rangle = N \exp(\frac{ip'x'}{|hbar})\]
+
+<p><strong>Time evolution operator</strong></p>
+
+\[U(t_0 +dt,t_0) = 1 - \frac{iHdt}{\hbar}\]
+
+<p><strong>Schrodinger equation</strong></p>
+
+<p>\begin{align}
+U(t+dt,t_0) &amp;= (1-\frac{iHdt}{\hbar})U(t,t_0)<br />
+U(t+dt,t_0)- U(t,t_0)&amp;= -\frac{iHdt}{\hbar}U(t,t_0)
+i\hbar\frac{\partial}{\partial t}U(t,t_0) &amp;=H U(t,t_0) <br />
+i\hbar\frac{\partial}{\partial t}|\alpha\rangle = H|\alpha\rangle
+\end{align}</p>
+
+<p><strong>Unitary operator for time dependent self commuting hamiltonian</strong></p>
+
+\[U(t,t_0) = \exp(-\frac{i}{\hbar})\int_{t_0}^t dt'H(t'))\]
+
+<p>When the Hamiltonian at different times do not commute, we get <strong>Dyson series</strong></p>
+
+\[U(t,t_0) = 1 + \Sigma_{n=1}^{\inf}(\frac{-i}{\hbar})^n\int_{t_0}^{t}dt_1\int_{t_0}^{t_1}dt_2 ...\int_{t_0}^{t_{n-1}}dt_n H(t_1)H(t_2)...H(t_n)\]
+
+<p><strong>Stationary state</strong>: An energy eigen state.</p>
+
+<p><strong>Heisenberg equation of motion</strong></p>
+
+\[\frac{dA^{(H)}}{dt}=\frac{1}{i\hbar}[A^{(H)},H].\]
+
+<p><strong>Simple Harmonic Oscillator</strong></p>
+
+<p><strong>Aniihilation operator</strong>(non Hermitian)
+\(a = \sqrt{\frac{m\omega}{2\hbar}}(x + \frac{ip}{m\omega})\)</p>
+
+\[[a,a^{\dagger}]=1\]
+
+\[H = \hbar \omega(N+\frac{1}{2})\]
 
 <p><strong>Questions</strong></p>
 <ol>

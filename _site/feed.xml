@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-22T20:11:12+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">[“Physics notes”]</title><entry><title type="html">Quantum_mechanics</title><link href="http://localhost:4000/2020/08/22/Quantum_Mechanics.html" rel="alternate" type="text/html" title="Quantum_mechanics" /><published>2020-08-22T00:00:00+05:30</published><updated>2020-08-22T00:00:00+05:30</updated><id>http://localhost:4000/2020/08/22/Quantum_Mechanics</id><content type="html" xml:base="http://localhost:4000/2020/08/22/Quantum_Mechanics.html">&lt;p&gt;The foundations of quantum mechanics shall be discussed in this post.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-23T11:34:29+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">[“Physics notes”]</title><entry><title type="html">Quantum_mechanics</title><link href="http://localhost:4000/2020/08/22/Quantum_Mechanics.html" rel="alternate" type="text/html" title="Quantum_mechanics" /><published>2020-08-22T00:00:00+05:30</published><updated>2020-08-22T00:00:00+05:30</updated><id>http://localhost:4000/2020/08/22/Quantum_Mechanics</id><content type="html" xml:base="http://localhost:4000/2020/08/22/Quantum_Mechanics.html">&lt;p&gt;The foundations of quantum mechanics shall be discussed in this post.&lt;/p&gt;
 
 &lt;p&gt;First thing: About the Schrodinger equation– How does one arrive at this equation and what is its significance?&lt;/p&gt;
 
@@ -27,7 +27,7 @@ A simultaneous &lt;em&gt;eigen-ket&lt;/em&gt; in 3D space is given by:&lt;/p&gt;
 
 \[\mathcal{J}^{\dagger}(dx')\mathcal{J}(dx') = 1\]
 
-\[\mathcal{J}(dx'')\mathcal{J}(dx') = \mathcal(J)(dx''+dx')\]
+\[\mathcal{J}(dx'')\mathcal{J}(dx') = \mathcal{J}(dx''+dx')\]
 
 \[\mathcal{J}(-dx') = \mathcal{J}^{-1}(dx')\]
 
@@ -46,6 +46,78 @@ This gives us :
 &lt;p&gt;The generating function for this will be:&lt;/p&gt;
 
 \[F(x,P) = x\cdot P + p\cdot dx\]
+
+&lt;p&gt;The finite translation operator is given by:&lt;/p&gt;
+
+&lt;p&gt;\begin{align}
+\mathcal{J}(\Delta x’ \mathbf{x})|x’\rangle &amp;amp;= |x’ + \Delta x’ \mathbf{x}\rangle &lt;br /&gt;
+&amp;amp;= \exp(-\frac{ip_x \Delta x’}{\hbar})
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;(&lt;strong&gt;Note&lt;/strong&gt;: Rotations about different axes do &lt;em&gt;not&lt;/em&gt; commute)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Anbelian&lt;/strong&gt; group : Whenever the generators of transformations commute.&lt;/p&gt;
+
+&lt;p&gt;\(|p'\rangle\)
+is an eigen ket of 
+\(\mathcal{J}\)
+because 
+\([p,\mathcal{J}]= 0\) .&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dirac’s rule&lt;/strong&gt; : Classical poisson bracket relationships turn into quantum commutator relationship with a scaling factor of $\hbar$.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Jacobi’s identity&lt;/strong&gt;: [A,[B,C]] +[B,[C,A]]+[C,[A,B]] = 0&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wave function&lt;/strong&gt;: 
+\(\psi_{\alpha}(x') = \langle x'|\alpha \rangle\)
+\(\langle \beta|\alpha\rangle = \int dx' \psi^*_{\beta}(x')\psi_{\alpha}(x')\)&lt;/p&gt;
+
+\[\langle\beta|f(x)|\alpha\rangle = \int dx' \psi^*_{\beta}(x')f(x')\psi_{\alpha}(x')\]
+
+&lt;p&gt;Action of momentum operator:
+\(\langle\beta|p|\alpha\rangle = \int dx' \psi^*_{\beta}(x')(-i\hbar\frac{\partial}{\partial x'})\psi_{\alpha}(x')\)&lt;/p&gt;
+
+&lt;p&gt;Now:&lt;/p&gt;
+
+\[\langle x'|p|p'\rangle  = -i\hbar\frac{\partial}{\partial x'}\langle x'|p'\rangle = p' \langle x'|p'\rangle\]
+
+\[\langle x'|p'\rangle = N \exp(\frac{ip'x'}{|hbar})\]
+
+&lt;p&gt;&lt;strong&gt;Time evolution operator&lt;/strong&gt;&lt;/p&gt;
+
+\[U(t_0 +dt,t_0) = 1 - \frac{iHdt}{\hbar}\]
+
+&lt;p&gt;&lt;strong&gt;Schrodinger equation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;\begin{align}
+U(t+dt,t_0) &amp;amp;= (1-\frac{iHdt}{\hbar})U(t,t_0)&lt;br /&gt;
+U(t+dt,t_0)- U(t,t_0)&amp;amp;= -\frac{iHdt}{\hbar}U(t,t_0)
+i\hbar\frac{\partial}{\partial t}U(t,t_0) &amp;amp;=H U(t,t_0) &lt;br /&gt;
+i\hbar\frac{\partial}{\partial t}|\alpha\rangle = H|\alpha\rangle
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Unitary operator for time dependent self commuting hamiltonian&lt;/strong&gt;&lt;/p&gt;
+
+\[U(t,t_0) = \exp(-\frac{i}{\hbar})\int_{t_0}^t dt'H(t'))\]
+
+&lt;p&gt;When the Hamiltonian at different times do not commute, we get &lt;strong&gt;Dyson series&lt;/strong&gt;&lt;/p&gt;
+
+\[U(t,t_0) = 1 + \Sigma_{n=1}^{\inf}(\frac{-i}{\hbar})^n\int_{t_0}^{t}dt_1\int_{t_0}^{t_1}dt_2 ...\int_{t_0}^{t_{n-1}}dt_n H(t_1)H(t_2)...H(t_n)\]
+
+&lt;p&gt;&lt;strong&gt;Stationary state&lt;/strong&gt;: An energy eigen state.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Heisenberg equation of motion&lt;/strong&gt;&lt;/p&gt;
+
+\[\frac{dA^{(H)}}{dt}=\frac{1}{i\hbar}[A^{(H)},H].\]
+
+&lt;p&gt;&lt;strong&gt;Simple Harmonic Oscillator&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Aniihilation operator&lt;/strong&gt;(non Hermitian)
+\(a = \sqrt{\frac{m\omega}{2\hbar}}(x + \frac{ip}{m\omega})\)&lt;/p&gt;
+
+\[[a,a^{\dagger}]=1\]
+
+\[H = \hbar \omega(N+\frac{1}{2})\]
 
 &lt;p&gt;&lt;strong&gt;Questions&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
