@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-23T11:34:29+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">[“Physics notes”]</title><entry><title type="html">Quantum_mechanics</title><link href="http://localhost:4000/2020/08/22/Quantum_Mechanics.html" rel="alternate" type="text/html" title="Quantum_mechanics" /><published>2020-08-22T00:00:00+05:30</published><updated>2020-08-22T00:00:00+05:30</updated><id>http://localhost:4000/2020/08/22/Quantum_Mechanics</id><content type="html" xml:base="http://localhost:4000/2020/08/22/Quantum_Mechanics.html">&lt;p&gt;The foundations of quantum mechanics shall be discussed in this post.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-23T17:05:37+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">[“Physics notes”]</title><entry><title type="html">Quantum_mechanics</title><link href="http://localhost:4000/2020/08/22/Quantum_Mechanics.html" rel="alternate" type="text/html" title="Quantum_mechanics" /><published>2020-08-22T00:00:00+05:30</published><updated>2020-08-22T00:00:00+05:30</updated><id>http://localhost:4000/2020/08/22/Quantum_Mechanics</id><content type="html" xml:base="http://localhost:4000/2020/08/22/Quantum_Mechanics.html">&lt;p&gt;The foundations of quantum mechanics shall be discussed in this post.&lt;/p&gt;
 
 &lt;p&gt;First thing: About the Schrodinger equation– How does one arrive at this equation and what is its significance?&lt;/p&gt;
 
@@ -118,6 +118,18 @@ i\hbar\frac{\partial}{\partial t}|\alpha\rangle = H|\alpha\rangle
 \[[a,a^{\dagger}]=1\]
 
 \[H = \hbar \omega(N+\frac{1}{2})\]
+
+&lt;p&gt;N and H are time-independent operators.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BCH&lt;/strong&gt; formula: 
+\(\exp(iG\lambda)A\exp(-iG\lambda) = A + i\lambda[G,A] + (\frac{i^2\lambda^2}{2!})[G,[G,A]]+...+...\)
+Where G is a Hermitian operator and $\lambda$ is real.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Coherent state&lt;/strong&gt;&lt;/p&gt;
+
+\[a|\lambda\rangle = \lambda|\lambda\rangle\]
+
+&lt;p&gt;Follows poissonian distribution.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Questions&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
